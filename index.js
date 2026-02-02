@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 app.get("/routeToHell", (req, res) => {
   res.send("MY name is xyz");
-});
+}); 
 app.get("/users", (req, res) => {
   res.status(200).json(users);
 });
